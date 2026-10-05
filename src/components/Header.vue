@@ -9,7 +9,14 @@ const goTo = async (anchor: string) => {
   await router.push({name: "home"});
   await nextTick();
   const section = document.getElementById(anchor);
-  section?.parentElement?.scrollTo({top: section.offsetTop});
+  if (!section?.parentElement) return;
+  // Sections are sticky, so offsetTop reports where a section is stuck, not where it starts.
+  // Its real start is the combined height of the sections before it.
+  let top = 0;
+  for (let el = section.previousElementSibling; el; el = el.previousElementSibling) {
+    top += (el as HTMLElement).offsetHeight;
+  }
+  section.parentElement.scrollTo({top});
 }
 </script>
 
