@@ -6,10 +6,10 @@ import StickySection from "@/components/StickySection.vue";
 <template>
   <sticky-section id="home" :bg-image="bgHome">
     <template #header>
-      <img src="@/assets/images/fcd-logo.png" alt="logo" class="w-2/3 max-w-screen-sm hidden md:block">
+      <img src="@/assets/images/fcd-logo.png" alt="First Class Delivery" class="w-2/3 max-w-screen-sm hidden md:block">
     </template>
     <template #body>
-      <div class="text-black max-w-screen-lg backdrop-blur-sm p-4 bg-white/25 rounded-2xl">
+      <div class="section-card">
         <p>First Class Delivery dedicated to providing exceptional transportation services
           across the United States and Canada.</p>
         <p>Our trucks are equipped to handle a wide range of delivery needs, from small

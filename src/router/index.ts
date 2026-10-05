@@ -21,7 +21,13 @@ const router = createRouter({
       name: 'ccpa',
       component: CaliforniaResidentsView
     },
-  ]
+  ],
+  scrollBehavior: () => ({top: 0})
+})
+
+// The home page scrolls inside <main>; other pages scroll the document itself
+router.afterEach((to) => {
+  document.body.classList.toggle('overflow-hidden', to.name === 'home')
 })
 
 export default router

@@ -1,16 +1,8 @@
 <script setup lang="ts">
-import router from "@/router";
-import {onMounted} from "vue";
-
-onMounted(() => {
-  if (router.currentRoute.value.name == "privacy") {
-    document.querySelector('body')?.classList.remove('overflow-hidden');
-  }
-});
 </script>
 
 <template>
-  <div class="w-full md:w-3/4 mt-24 mb-16 mx-auto p-4 h-screen">
+  <div class="w-full md:w-3/4 mt-24 mb-16 mx-auto p-4">
 
     <h1 class="text-4xl md:text-6xl">Privacy Policy</h1>
 
