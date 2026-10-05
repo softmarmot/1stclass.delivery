@@ -1,16 +1,8 @@
 <script setup lang="ts">
-import router from "@/router";
-import {onMounted} from "vue";
-
-onMounted(() => {
-  if (router.currentRoute.value.name == "ccpa") {
-    document.querySelector('body')?.classList.remove('overflow-hidden');
-  }
-});
 </script>
 
 <template>
-  <div class="mt-32 w-full md:w-3/4 mx-auto px-4 overflow-y-auto">
+  <div class="mt-32 mb-16 w-full md:w-3/4 mx-auto px-4">
     <p>
       At First Class Delivery LLC and our affiliated companies, we are committed to
       transparency about how we use your data. If you are a California resident, you can request a copy of your personal&nbsp;information,
@@ -19,7 +11,7 @@ onMounted(() => {
       <br>
       <br>
       To do so, please contact us at
-      <a class="text-blue-800 underline cursor-pointer" href="tel:14407091601">+1 (440) 709-1601</a>
+      <a class="text-blue-800 underline cursor-pointer" href="tel:+14407091601">+1 (440) 709-1601</a>
       or
       <a class="text-blue-800 underline" href="mailto:firstclassdeliveryllc2023@gmail.com">firstclassdeliveryllc2023@gmail.com</a>.
       Please be advised that there may be situations where we are unable to honor your request(s) due to an exception in
