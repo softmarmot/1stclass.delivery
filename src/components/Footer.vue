@@ -9,6 +9,8 @@
       <li><router-link class="text-blue-300 underline" :to="{name: 'privacy'}">Privacy Policy</router-link></li>
       <li>|</li>
       <li><router-link class="text-blue-300 underline" :to="{name: 'ccpa'}">California Residents</router-link></li>
+      <li class="hidden md:block">|</li>
+      <li class="hidden md:block">Developed by <a class="text-blue-300 underline" href="https://softmarmot.com" target="_blank" rel="noopener">softmarmot.com</a></li>
     </ul>
   </footer>
 </template>
