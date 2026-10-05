@@ -16,12 +16,12 @@ import StickySection from "@/components/StickySection.vue";
           needs and experience the difference of working with a reliable and dedicated partner.</p>
         <p>If you want to work with us and receive text messages, please contact us via e-mail or call by phone
           number.</p>
-        <p class="!mt-8"><a href="tel:+14407091601">Call us: <span
+        <p class="!mt-4 md:!mt-8"><a href="tel:+14407091601">Call us: <span
             class="underline font-bold">+1 (440) 709-1601</span></a></p>
         <p><a href="mailto:firstclassdeliveryllc2023@gmail.com">Email us: <span
             class="underline font-bold break-all">firstclassdeliveryllc2023@gmail.com</span></a>
         </p>
-        <p class="!mt-8 text-sm text-slate-300">To stop receive text messages from our company, please text "Stop" to <span class="underline">+1 (440) 709-1601</span> phone
+        <p class="!mt-4 md:!mt-8 text-xs md:text-sm text-slate-300">To stop receive text messages from our company, please text "Stop" to <span class="underline">+1 (440) 709-1601</span> phone
           number.</p>
       </div>
     </template>

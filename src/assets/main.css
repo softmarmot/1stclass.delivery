@@ -5,11 +5,11 @@
 @layer components {
   /* Text panel shown over the full-screen section photos */
   .section-card {
-    @apply mt-6 md:mt-8 mb-4 max-w-screen-md space-y-3 rounded-2xl bg-slate-900/50 p-5 md:p-6
-    text-base md:text-lg leading-relaxed text-white shadow-xl backdrop-blur-md;
+    @apply mt-3 md:mt-8 mb-4 max-w-screen-md space-y-2 md:space-y-3 rounded-2xl bg-slate-900/50 p-4 md:p-6
+    text-sm md:text-lg leading-normal md:leading-relaxed text-white shadow-xl backdrop-blur-md;
   }
 
   .section-title {
-    @apply italic text-4xl md:text-6xl font-bold drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)];
+    @apply italic text-3xl md:text-6xl font-bold drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)];
   }
 }
