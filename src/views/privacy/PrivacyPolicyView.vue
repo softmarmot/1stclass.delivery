@@ -345,6 +345,9 @@
       <p>For questions about this Privacy Policy or our privacy practices, contact First Class Delivery LLC:</p>
 
       <address>
+        First Class Delivery LLC<br>
+        10315 State Rd, North Royalton, OH 44133<br>
+        USDOT No. 3207630 · MC-1000913<br>
         Phone: <a class="text-blue-800 underline" href="tel:+14407091601">+1 (440) 709-1601</a><br>
         Email: <a class="text-blue-800 underline break-all" href="mailto:firstclassdeliveryllc2023@gmail.com">firstclassdeliveryllc2023@gmail.com</a><br>
         Website: 1stclass.delivery
