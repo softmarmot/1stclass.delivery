@@ -22,7 +22,13 @@ const router = createRouter({
       component: CaliforniaResidentsView
     },
   ],
-  scrollBehavior: () => ({top: 0})
+  scrollBehavior: (to) => {
+    // Hash history keeps in-page anchors after the route, e.g. #/privacy#california
+    if (to.hash) {
+      return {el: to.hash, top: 96, behavior: 'smooth'}
+    }
+    return {top: 0}
+  }
 })
 
 // The home page scrolls inside <main>; other pages scroll the document itself
